@@ -1,12 +1,12 @@
 let App = Vue.createApp({
     data() {
         return {
-            healthValue: 70,
+            healthValue: 75,
             healthValueDecrease: 2,
             healthValueIncrease: 8,
             fullValue: 100,
             happyValue: 85,
-            neutralValue: 45,
+            neutralValue: 40,
             worriedValue: 20, 
             wantToEatValue: 10,
             sadValue: 1,
