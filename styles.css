@@ -1,0 +1,36 @@
+html, body {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+#progress_div {
+    text-align: center;
+}
+
+progress {
+    width: 70%;
+    height: 50px;
+}
+
+img {
+    height: 320px;
+} 
+
+p {
+    font-size: 24px;
+}
+
+button {
+    width: 220px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 50px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+h1 {
+    text-align: center;
+}
