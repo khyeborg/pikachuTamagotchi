@@ -133,8 +133,12 @@ let App = Vue.createApp({
                 return { color: "orange" };
             }
 
-            else {
+            else if (this.healthValue >= this.sadValue) {
                 return { color: "red" };
+            }
+          
+            else {
+              	return { color: "black" };
             }
         }
     },
